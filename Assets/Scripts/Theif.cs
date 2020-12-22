@@ -5,6 +5,12 @@ using UnityEngine;
 public class Theif : MonoBehaviour
 {
     [SerializeField] private float _speed;
+    private Rigidbody2D _rigidbody2D;
+
+    private void Start()
+    {
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+    }
 
     private void Update()
     {
