@@ -64,9 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Signaling.cs" />
-    <Compile Include="Assets\Scripts\SoundValueChanger.cs" />
-    <Compile Include="Assets\Scripts\Theif.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>H:/Unity Junior/HomeWorks/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
