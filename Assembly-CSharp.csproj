@@ -64,10 +64,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GamePlatformerScripts\PlayerMovement.cs" />
+    <Compile Include="Assets\GamePlatformerScripts\PlayersAnimationController.cs" />
+    <Compile Include="Assets\GamePlatformerScripts\PlayersSpriteAndColliderController.cs" />
+    <Compile Include="Assets\Scripts\AnimationStarter.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Coin.cs" />
     <Compile Include="Assets\Scripts\CoinSpawner.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\SliderValueChanger.cs" />
     <Compile Include="Assets\Scripts\WayPointMovement.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>H:/Unity Junior/HomeWorks/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -326,6 +331,9 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>H:/2019.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>H:/Unity Junior/HomeWorks/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>H:/2019.3.11f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -672,6 +680,12 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>H:/2019.3.11f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{E68EA827-AF2C-B154-A070-324FEBAA1B39}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
